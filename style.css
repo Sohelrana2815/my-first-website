@@ -3,6 +3,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0px 200px;
 }
 
 .orange {
@@ -41,4 +42,20 @@ nav a {
   color: #fff;
   font-size: 20px;
   padding: 16px 35px 17px 36px;
+}
+
+/* header related styles */
+
+.header {
+  background-color: #fff8f3;
+}
+
+.banner {align-items: center;
+  padding: 30px 30px 30px 150px;
+  display: flex;
+}
+
+.banner .profile-pic {
+  width: 584px;
+  height: 676px;
 }
