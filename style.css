@@ -56,6 +56,10 @@ nav a {
 }
 
 .banner .profile-pic {
-  width: 584px;
-  height: 676px;
+  width: 500px;
+
+}
+
+#one {
+    font-weight: 400;
 }
