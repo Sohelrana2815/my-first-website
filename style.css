@@ -1,3 +1,17 @@
+.section-title {
+  color: #181818;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.section-des {
+  color: #757575;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+}
+
 /* nav related style */
 nav {
   display: flex;
@@ -48,18 +62,49 @@ nav a {
 
 .header {
   background-color: #fff8f3;
+  background-image: url("header.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
 
-.banner {align-items: center;
-  padding: 30px 30px 30px 150px;
+.banner {
+  align-items: center;
+  padding: 30px 30px 0px 150px;
   display: flex;
+  justify-content: space-between;
+}
+
+.one {
+  max-width: 500px;
 }
 
 .banner .profile-pic {
   width: 500px;
-
 }
 
 #one {
-    font-weight: 400;
+  font-weight: 400;
+}
+
+.banner-greeting {
+  font-size: 45px;
+  color: #474747;
+  margin-bottom: 0;
+}
+.banner-title {
+  font-size: 85px;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.banner-des {
+}
+/* main section build */
+/* about section styles */
+
+.about {
+  margin: 130px;
+  padding: 131px;
+  border-radius: 10px;
+  background: #fff8f3;
 }
