@@ -140,6 +140,7 @@ main section {
 }
 .skill-des {
   color: #757575;
+  font-size: 14px;
 }
 
 /* resume section styles */
@@ -180,4 +181,13 @@ main section {
 .download-cv {
   text-align: center;
   margin-top: 50px;
+}
+
+/* footer styles */
+
+footer {
+  display: flex;
+  background: #FFF8F3;
+  padding:130px 230px ;
+  margin-top: 100px;
 }
